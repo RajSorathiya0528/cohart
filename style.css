@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+.subheading{
+    text-align: center;
+    color: grey;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    margin: 3px;
+    padding: 3px;
+    border: 2px solid pink;
+}
+.chield{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 268px;
+    background-color: rgb(255, 216, 223);
+    color: gray;
+}
+#item1{
+    justify-content: start;
+}
+#item2{
+    justify-content: center;
+}
+#item3{
+    justify-content: end;
+}
+#item4{
+    align-items: center;
+    text-align: center;
+}
+#item5{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#item6{
+    justify-content: end;
+    text-align: center;
+}
+#item7{
+    text-align: end;
+}
+#item8{
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+}
+#item9{
+    justify-content: end;
+    text-align: end;
+}
+.justify{
+    border: 2px solid pink;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    gap: 3px;
+    height: 150px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(122, 118, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#example1{
+    justify-content: space-between;
+}
+#example2{
+    justify-content: center;
+}
+#example3{
+    justify-content: end;
+}
+#example4{
+    justify-content:baseline;
+}
+#example5{
+    justify-content:flex-end;
+}
+#example6{
+    justify-content: space-around;
+}
+#example7{
+    justify-content: space-evenly;
+}
+#example8{
+    align-items: center;
+}
+#example9{
+    align-items: end;
+}
